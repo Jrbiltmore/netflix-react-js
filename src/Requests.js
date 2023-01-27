@@ -6,6 +6,8 @@ const requests = {
   requestTrending: `https://api.themoviedb.org/3/movie/popular?api_key=${KEY}&language=en-US&page=2`,
   requestAction: `https://api.themoviedb.org/3/search/movie?api_key=${KEY}&language=en-US&query=action&page=1&include_adult=false`,
   requestUpcoming: `https://api.themoviedb.org/3/movie/upcoming?api_key=${KEY}&language=en-US&page=1`,
+  requestAdventure: `https://api.themoviedb.org/3/search/movie?api_key=${KEY}&language=en-US&query=adventure&page=1&include_adult=false`,
+  requestNowPlaying: `https://api.themoviedb.org/3/movie/now_playing?api_key=${KEY}&language=en-US&page=1`,
 };
 
 export default requests;
